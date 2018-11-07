@@ -205,6 +205,7 @@ PRODUCT_PACKAGES += \
     libcppbor_external.vendor:64
 
 # Overlays
+PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     FrameworksResTarget \
     SystemUIResTarget
