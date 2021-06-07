@@ -26,3 +26,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-transsion
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=X6833B \
     BuildFingerprint=Infinix/X6833B-GL/Infinix-X6833B:14/UP1A.231005.007/240703V808:user/release-keys
+
+# Time
+LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
+
