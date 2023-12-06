@@ -423,9 +423,6 @@ on property:persist.vendor.mediatek.fast_charging.support=*
 #INTERNAL_END
 #BSP:add meta features XLQLBH-14 by wang.qin 20220412 start
 #TRANSSION_START
-on property:persist.vendor.tran.wipedata=1
-    tran_factory_reset
-
 service shutdown_usbdis /bin/sh -c "sleep 1800 && reboot -p"
     disabled
     seclabel u:r:shell:s0
