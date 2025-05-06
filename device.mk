@@ -209,9 +209,6 @@ PRODUCT_PACKAGES += \
 # IMS
 $(call inherit-product, vendor/mediatek/ims/ims.mk)
 
-# Include GSI keys
-$(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
-
 # Init files
 PRODUCT_PACKAGES += \
     factory_init.connectivity.common.rc \
