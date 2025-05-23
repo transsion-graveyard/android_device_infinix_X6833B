@@ -39,7 +39,7 @@ blob_fixups: blob_fixups_user_type = {
 
 module = ExtractUtilsModule(
     'X6833B',
-    'Infinix',
+    'infinix',
     blob_fixups=blob_fixups,
 )
 
