@@ -367,6 +367,13 @@ PRODUCT_SOONG_NAMESPACES += \
 # Updatable APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal-service.mediatek
+    
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
+    
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.transsion
