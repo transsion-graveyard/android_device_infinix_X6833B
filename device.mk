@@ -256,6 +256,9 @@ PRODUCT_PACKAGES += \
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
+# JamesDSP
+$(call inherit-product-if-exists, vendor/JamesDSP/config.mk)
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.transsion
