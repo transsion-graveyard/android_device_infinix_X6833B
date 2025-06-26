@@ -240,6 +240,9 @@ PRODUCT_PACKAGES += \
     init.sensor_2_0.rc \
     ueventd.mt6789.rc
 
+# JamesDSP
+$(call inherit-product-if-exists, vendor/JamesDSP/config.mk)
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.transsion
