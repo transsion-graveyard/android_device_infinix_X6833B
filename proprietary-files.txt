@@ -1232,10 +1232,10 @@ vendor/lib64/libcodec2_vpp_rs_plugin.so
 vendor/lib64/libformatter.so
 
 # Media (Common)
-vendor/lib/AVCSecureVdecCA_510.so
-vendor/lib/HEVCSecureVdecCA_510.so
-vendor/lib/VP9SecureVdecCA_510.so
-vendor/lib/libAVCSecureVencCA_510.so
+vendor/lib/AVCSecureVdecCA_510.so;DISABLE_CHECKELF
+vendor/lib/HEVCSecureVdecCA_510.so;DISABLE_CHECKELF
+vendor/lib/VP9SecureVdecCA_510.so;DISABLE_CHECKELF
+vendor/lib/libAVCSecureVencCA_510.so;DISABLE_CHECKELF
 vendor/lib/libHEVCdec_sa.ca7.android.so;DISABLE_CHECKELF
 vendor/lib/libadpcmdec_mtk.so
 vendor/lib/libh264dec_customize.so
@@ -1505,9 +1505,9 @@ vendor/bin/mcDriverDaemon
 vendor/etc/init/tee.rc
 vendor/etc/init/trustonic.rc
 vendor/etc/init/vendor.trustonic.tee@1.1-service.rc
-vendor/lib/libTEECommon.so
-vendor/lib/libgz_gp_client.so
-vendor/lib/libgz_uree.so
+vendor/lib/libTEECommon.so;DISABLE_CHECKELF
+vendor/lib/libgz_gp_client.so;DISABLE_CHECKELF
+vendor/lib/libgz_uree.so;DISABLE_CHECKELF
 vendor/lib64/libTEECommon.so
 vendor/lib64/libgz_gp_client.so
 vendor/lib64/libgz_uree.so
