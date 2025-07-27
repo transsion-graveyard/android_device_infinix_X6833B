@@ -387,7 +387,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbinder-v32 \
     libhidlbase-v32 \
-    libstagefright_foundation-v32 \
+    libstagefrightfoundation-v33 \
     libutils-v32
 
 # USB
