@@ -267,15 +267,6 @@ PRODUCT_PACKAGES += \
     android.hardware.security.rkp-V3-ndk.vendor \
     libcppbor_external.vendor:64
 
-# Overlays
-PRODUCT_ENFORCE_RRO_TARGETS := *
-PRODUCT_PACKAGES += \
-    FrameworksResTarget \
-    SettingsResOverlayTarget \
-    SystemUIResTarget \
-    TetheringResOverlayTarget \
-    WifiResOverlayTarget
-
 # Linker
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     $(LOCAL_PATH)/configs/linker.config.json
@@ -317,6 +308,15 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
     com.android.nfc_extras \
     Tag
+
+# Overlays
+PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_PACKAGES += \
+    FrameworksResTarget \
+    SettingsResOverlayTarget \
+    SystemUIResTarget \
+    TetheringResOverlayTarget \
+    WifiResOverlayTarget
 
 # Permissions
 PRODUCT_COPY_FILES += \
