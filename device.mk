@@ -231,15 +231,6 @@ PRODUCT_PACKAGES += \
     init.sensor_2_0.rc \
     ueventd.mt6789.rc
 
-# Overlays
-PRODUCT_ENFORCE_RRO_TARGETS := *
-PRODUCT_PACKAGES += \
-    FrameworkResOverlayRozen \
-    SettingsResOverlayRozen \
-    SystemUIResOverlayRozen \
-    TetheringResOverlayRozen \
-    WifiResOverlayRozen
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.transsion
@@ -301,6 +292,15 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
     com.android.nfc_extras \
     Tag
+
+# Overlays
+PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_PACKAGES += \
+    FrameworkResOverlayRozen \
+    SettingsResOverlayRozen \
+    SystemUIResOverlayRozen \
+    TetheringResOverlayRozen \
+    WifiResOverlayRozen
 
 # Permissions
 PRODUCT_COPY_FILES += \
