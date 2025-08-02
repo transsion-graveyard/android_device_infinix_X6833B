@@ -101,18 +101,4 @@ on property:sys.boot_completed=1
     write /sys/kernel/tracing/instances/mmstat/buffer_size_kb 16
     write /sys/kernel/tracing/instances/mmstat/events/mmstat/enable 1
     write /sys/kernel/tracing/instances/mmstat/tracing_on 1
-#SPD: modify cpu shares by bin.liu5 at 20240205 start
-    write /dev/cpuctl/top-app/cpu.shares 5120
-    write /dev/cpuctl/foreground/cpu.shares 4196
-#SPD: modify cpu shares by bin.liu5 at 20240205 end
 
-#BSP add for Memfusion2_2 by yuhang.ren 20240304 start
-on property:sys.boot_completed=1 && property:persist.vendor.swapfile_enable=true && property:ro.vendor.memfusion2_2.support=true
-    swapon_all /vendor/etc/memfusion2/fstab.enableswap_wb
-#BSP add for Memfusion2_2 by yuhang.ren 20240304 end
-
-#BSP add for swappiness watermark_scale_factor by xiayu.ye 20240416 start
-    write /proc/sys/vm/swappiness 180
-    write /proc/sys/vm/watermark_scale_factor 64
-    write /proc/sys/vm/extra_free_kbytes 37968
-#BSP add for swappiness watermark_scale_factor by xiayu.ye 20240416 end
