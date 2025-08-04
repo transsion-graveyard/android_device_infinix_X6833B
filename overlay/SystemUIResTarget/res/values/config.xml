@@ -407,4 +407,9 @@
           <item>1056</item>  <!-- sensorLocationY -->
           <item>210</item>  <!-- sensorRadius -->
      </array>
+
+
+    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+         in hardware. -->
+    <bool name="config_setColorTransformAccelerated">true</bool>
 </resources>
