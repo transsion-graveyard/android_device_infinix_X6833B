@@ -262,7 +262,7 @@ $(call inherit-product-if-exists, vendor/JamesDSP/config.mk)
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.transsion
+    android.hardware.lights-service.millennium
     
 # Keylayout
 PRODUCT_COPY_FILES += \
@@ -490,7 +490,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek/libaedv \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/transsion
+    hardware/millennium
 
 # Updatable APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -504,7 +504,7 @@ PRODUCT_COPY_FILES += \
     
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.transsion
+    android.hardware.vibrator-service.millennium
 
 # VNDK
 PRODUCT_PACKAGES += \
