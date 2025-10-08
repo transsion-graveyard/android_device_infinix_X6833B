@@ -248,7 +248,7 @@ $(call inherit-product-if-exists, vendor/JamesDSP/config.mk)
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.transsion
+    android.hardware.lights-service.millennium
     
 # Keylayout
 PRODUCT_COPY_FILES += \
@@ -476,7 +476,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/transsion
+    hardware/millennium
 
 # Thermal
 PRODUCT_PACKAGES += \
@@ -487,7 +487,7 @@ PRODUCT_COPY_FILES += \
     
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.transsion    
+    android.hardware.vibrator-service.millennium    
 
 # VNDK
 PRODUCT_PACKAGES += \
