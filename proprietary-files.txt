@@ -1,9 +1,5 @@
 # Unpinned blobs from LH7n-H894JKLM-U-GL-250416V781
 
-# AEE
-vendor/lib/libaedv.so
-vendor/lib64/libaedv.so
-
 # APU
 -vendor/etc/vintf/manifest/manifest_apuware_apusys.xml
 -vendor/etc/vintf/manifest/manifest_apuware_hmp.xml
