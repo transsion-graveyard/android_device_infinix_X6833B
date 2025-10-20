@@ -3,9 +3,7 @@
 import ${ro.vendor.rc}init.connectivity.rc
 import ${ro.vendor.rc}init.mt6789.usb.rc
 import /vendor/etc/init/hw/init.project.rc
-import /system_ext/etc/init/hw/init.aee.rc
 import /FWUpgradeInit.rc
-import /vendor/etc/init/hw/init.aee.rc
 import /vendor/etc/init/hw/init.sensor_2_0.rc
 import /vendor/etc/init/hw/init.mt6789.power.rc
 
