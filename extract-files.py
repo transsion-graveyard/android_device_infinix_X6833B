@@ -19,6 +19,7 @@ namespace_imports = [
     'hardware/mediatek',
     'hardware/mediatek/libmtkperf_client',
     'hardware/transsion',
+    'hardware/mediatek/libaedv',
 ]
 
 blob_fixups: blob_fixups_user_type = {
