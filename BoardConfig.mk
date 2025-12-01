@@ -244,4 +244,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
 
 # Inherit the proprietary files
-include vendor/infinix/X6833B/BoardConfigVendor.mk
+include vendor/infinix/x6833b/BoardConfigVendor.mk
