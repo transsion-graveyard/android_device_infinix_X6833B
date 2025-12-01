@@ -904,6 +904,13 @@ vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 
+# Camera (Transsion)
+system_ext/app/TranssionCamera/TranssionCamera.apk
+vendor/bin/hw/vendor.transsion.hardware.trancam.trancamserver@1.0-service
+vendor/etc/init/vendor.transsion.hardware.trancam.trancamserver@1.0-service.rc
+vendor/etc/vintf/manifest/vendor.transsion.hardware.trancam.trancamserver@1.0.xml
+vendor/lib64/vendor.transsion.hardware.trancam.trancamserver@1.0.so
+
 # Cameradata
 vendor/data/camera/morpho/morpho_calibration_video.bin
 vendor/data/camera/vidhance/vidhance.lic
@@ -1308,6 +1315,9 @@ vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libheichal.so
 vendor/lib64/libvcodec_oal.so
 vendor/lib64/libvcodecdrv_header_stub.so
+vendor/lib64/libimageio_plat_drv.so
+vendor/lib64/libimageio_plat_pipe.so
+vendor/lib64/libimageio.so
 
 # Media (VPU)
 vendor/lib64/libmvpu_cic_ci_compiler.so
