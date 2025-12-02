@@ -182,7 +182,7 @@ vendor/etc/init/camerahalserver.rc
 vendor/etc/vintf/manifest/manifest_cameraprovider.xml
 vendor/lib/mt6789/libaiselector.so:vendor/lib/libaiselector.so
 vendor/lib/mt6789/libmtk_drvb.so:vendor/lib/libmtk_drvb.so
-vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so:vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.solo
+vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so:vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
 vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.atms@1.0-impl.so:vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.ccap@1.0-impl.so:vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so
@@ -372,7 +372,7 @@ vendor/lib64/mt6789/libcam.iopipe.so:vendor/lib64/libcam.iopipe.so
 vendor/lib64/mt6789/libcam.isptuning.so:vendor/lib64/libcam.isptuning.so
 vendor/lib64/mt6789/libcam.pdtblgen.so:vendor/lib64/libcam.pdtblgen.so
 vendor/lib64/mt6789/libcam.tuning.cache.so:vendor/lib64/libcam.tuning.cache.so
-vendor/lib64/mt6789/libcam.utils.sensorprovider.so:vendor/lib64/libcam.utils.sensorprovider.so
+vendor/lib64/mt6789/libcam.utils.sensorprovider.so:vendor/lib64/libcam.utils.sensorprovider.so;DISABLE_CHECKELF
 vendor/lib64/mt6789/libcam.vhdr.so:vendor/lib64/libcam.vhdr.so
 vendor/lib64/mt6789/libcam3atms_profiles.so:vendor/lib64/libcam3atms_profiles.so
 vendor/lib64/mt6789/libcamalgo.ispfeature.so:vendor/lib64/libcamalgo.ispfeature.so
