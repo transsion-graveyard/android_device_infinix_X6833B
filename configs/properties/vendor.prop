@@ -306,6 +306,9 @@ ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.vendor.mtk_svp_on_mtee_support=2
 ro.vendor.mtk_trustonic_tee_support=1
 
+#Vibration
+ro.vendor.tran.vibrator.option=single
+
 # Wi-Fi
 ro.vendor.wifi.sap.concurrent.iface=ap1
 ro.vendor.wifi.sap.interface=ap0

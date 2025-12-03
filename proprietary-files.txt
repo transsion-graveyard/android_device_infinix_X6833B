@@ -1607,6 +1607,11 @@ vendor/lib/libtranlog.so
 vendor/lib64/libminizip.so
 vendor/lib64/libtranlog.so
 
+#Vibrator
+vendor/firmware/aw8622x_haptic.bin
+vendor/firmware/aw8622x_osc_rtp_12K_10s.bin
+vendor/firmware/aw8622x_rtp.bin
+
 # Wi-Fi
 vendor/bin/wlan_assistant
 vendor/etc/init/wlan_assistant.rc
