@@ -3,6 +3,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+LOCAL_PATH := device/infinix/X6833B
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -59,6 +61,9 @@ PRODUCT_DEX_PREOPT_GENERATE_DM_FILES := true
 
 # IMS (System/Product APKs and overlays - no vendor conflict)
 $(call inherit-product, vendor/mediatek/ims/ims.mk)
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
