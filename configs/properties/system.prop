@@ -32,9 +32,6 @@ dalvik.vm.image-dex2oat-threads=6
 # Graphics
 ro.opengles.version=196610
 
-# Renderer
-debug.hwui.renderer=skiagl
-
 # Iorapd
 iorapd.perfetto.enable=false
 iorapd.readahead.enable=false
