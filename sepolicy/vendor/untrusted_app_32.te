@@ -1,3 +1,2 @@
 # Fix for Night Mode / BGS Service
 allow untrusted_app_32 mtk_hal_bgs_hwservice:hwservice_manager find;
-allow untrusted_app_32 mtk_hal_camera:binder call;
