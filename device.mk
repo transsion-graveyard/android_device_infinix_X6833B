@@ -323,14 +323,13 @@ PRODUCT_PACKAGES += \
     Tag
 
 # Overlays
+$(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     FrameworkResOverlayTarget \
     SettingsResOverlayTarget \
     SettingsProviderOverlayTarget \
     SystemUIResTarget \
-    TetheringResOverlayTarget \
-    WifiResOverlayTarget
 
 # Lineage-Specific Overlays
 PRODUCT_PACKAGES += \
@@ -426,6 +425,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
 # Radio
+ENABLE_VENDOR_RIL_SERVICE := true
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3.vendor:64 \
     android.hardware.radio@1.6.vendor:64
