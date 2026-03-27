@@ -138,6 +138,11 @@ PRODUCT_PACKAGES += \
     android.hardware.security.sharedsecret-V1-ndk_platform.vendor:64 \
     libcppbor_external.vendor:64
 
+# Overlays
+PRODUCT_PACKAGES += \
+    FrameworksResTarget \
+    SystemUIResTarget
+
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
