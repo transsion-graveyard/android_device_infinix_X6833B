@@ -110,6 +110,10 @@ TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 TARGET_BOARD_PLATFORM := mt6789
 BOARD_HAS_MTK_HARDWARE := true
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/properties/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
+
 # Recovery
 BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := true
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
