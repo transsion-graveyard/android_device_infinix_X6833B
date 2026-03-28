@@ -24,7 +24,5 @@ PRODUCT_MODEL := Infinix X6833B
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="sys_tssi_64_armv82_infinix-user 14 UP1A.231005.007 651333 release-keys" \
-    PRODUCT_NAME=X6833B-GL
-
-BUILD_FINGERPRINT := Infinix/X6833B-GL/Infinix-X6833B:14/UP1A.231005.007/240703V808:user/release-keys
+    DeviceName=X6833B \
+    BuildFingerprint=Infinix/X6833B-GL/Infinix-X6833B:14/UP1A.231005.007/240703V808:user/release-keys
