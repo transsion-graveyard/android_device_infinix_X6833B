@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="ambient.on.display0">0.1</item>
-    <item name="screen.on.display0">85.30</item>
-    <item name="screen.full.display0">378</item>
-    <item name="bluetooth.active">10.9</item>
-    <item name="bluetooth.on">1.5</item>
-    <item name="wifi.on">0.7</item>
-    <item name="wifi.active">198.35</item>
-    <item name="wifi.scan">32.4</item>
-    <item name="audio">35.1</item>
-    <item name="video">68.1</item>
-    <item name="camera.flashlight">177.7</item>
-    <item name="camera.avg">795.7</item>
-    <item name="gps.on">29.4</item>
+    <item name="screen.on.display0">64.45</item>
+    <item name="screen.full.display0">383.95</item>
+    <item name="bluetooth.active">9</item>
+    <item name="bluetooth.on">0.8</item>
+    <item name="wifi.on">0.1</item>
+    <item name="wifi.active">254.73</item>
+    <item name="wifi.scan">39.5</item>
+    <item name="audio">40.2</item>
+    <item name="video">91.1</item>
+    <item name="camera.flashlight">237.4</item>
+    <item name="camera.avg">1038.4</item>
+    <item name="gps.on">24.5</item>
     <item name="radio.active">15</item>
-    <item name="radio.scanning">44.4</item>
+    <item name="radio.scanning">40</item>
     <array name="radio.on">
-        <value>7.6</value>
-        <value>7.6</value>
+        <value>3.3</value>
+        <value>3.3</value>
     </array>
     <array name="cpu.clusters.cores">
         <value>6</value>
@@ -111,8 +111,8 @@
         <value>167.57</value>
         <value>177.02</value>
     </array>
-    <item name="cpu.idle">5.07</item>
-    <item name="cpu.suspend">5.07</item>
+    <item name="cpu.idle">7.2</item>
+    <item name="cpu.suspend">5</item>
     <item name="cpu.active">9.89</item>
     <item name="cpu.cluster_power.cluster0">2.11</item>
     <item name="cpu.cluster_power.cluster1">2.22</item>
@@ -207,7 +207,7 @@
     <array name="memory.bandwidths">
         <value>22.7</value>
     </array>
-    <item name="battery.capacity">6000</item>
+    <item name="battery.capacity">5000</item>
     <item name="wifi.controller.idle">15.2</item>
     <item name="wifi.controller.rx">296.22</item>
     <item name="wifi.controller.tx">426.91</item>
