@@ -65,7 +65,9 @@ blob_fixups: blob_fixups_user_type = {
         .binary_regex_replace(b'A2dpsuspendonly', b'A2dpSuspended\x00\x00')
         .binary_regex_replace(b'BTAudiosuspend', b'A2dpSuspended\x00')
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so')
-        .replace_needed('libalsautils.so', 'libalsautils-v31.so'),
+        .replace_needed('libalsautils.so', 'libalsautils-v31.so')
+	.replace_needed('libhidlbase-v32.so', 'libhidlbase.so')
+	.replace_needed('libutils-v32.so', 'libutils.so'),
     ('vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.isphal@1.0-impl.so', 'vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.isphal@1.1-impl.so'): blob_fixup()
         .replace_needed('libhidlbase.so', 'libhidlbase-v32.so')
         .replace_needed('libbinder.so', 'libbinder-v32.so')
