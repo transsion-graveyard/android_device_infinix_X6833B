@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2023 The Infinity-X Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
