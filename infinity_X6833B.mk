@@ -15,7 +15,7 @@ $(call inherit-product, device/infinix/X6833B/device.mk)
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Infinity-X Specific Flags
-INFINITY_BUILD_TYPE := UNOFFICIAL
+INFINITY_BUILD_TYPE := OFFICIAL
 INFINITY_MAINTAINER := "akif"
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
