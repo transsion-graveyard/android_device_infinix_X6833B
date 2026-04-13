@@ -487,7 +487,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek/libaedv \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/millennium
+    hardware/millennium \
+    hardware/millennium/libtranlog
 
 # Updatable APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)

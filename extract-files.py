@@ -24,6 +24,7 @@ namespace_imports = [
     'hardware/mediatek',
     'hardware/mediatek/libmtkperf_client',
     'hardware/millennium',
+    'hardware/millennium/libtranlog',
     'hardware/mediatek/libaedv',
 ]
 
