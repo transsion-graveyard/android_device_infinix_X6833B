@@ -33,6 +33,11 @@ on init
     write /sys/devices/platform/soc/11270000.ufshci/clkgate_enable 0
     write /proc/sys/kernel/sched_util_clamp_min_rt_default 0
 
+    # I/O scheduler: kyber for UFS (low latency queues, ideal for gaming & multitasking)
+    write /sys/block/sda/queue/scheduler kyber
+    write /sys/block/sdb/queue/scheduler kyber
+    write /sys/block/sdc/queue/scheduler kyber
+
     # update cpus for cpuset cgroup
     write /dev/cpuset/foreground/cpus 0-7
     write /dev/cpuset/foreground_window/cpus 0-7
