@@ -53,9 +53,6 @@ PRODUCT_PACKAGES += \
     create_pl_dev \
     create_pl_dev.recovery
 
-# GameBar
-$(call inherit-product-if-exists, packages/apps/GameBar/gamebar.mk)
-
 # Audio
 $(call soong_config_set,android_hardware_audio,run_64bit,true)
 $(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
