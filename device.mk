@@ -107,6 +107,12 @@ PRODUCT_PACKAGES += \
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
+# Audio Fixer
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/bin/audio_fix.sh:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/audio_fix.sh \
+    $(LOCAL_PATH)/rootdir/etc/init.audio_fix.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.audio_fix.rc
+  
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth-service.mediatek

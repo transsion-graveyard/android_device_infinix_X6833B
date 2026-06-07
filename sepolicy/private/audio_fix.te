@@ -1,0 +1,13 @@
+type audio_fix, domain, coredomain;
+type audio_fix_exec, system_file_type, exec_type, file_type;
+
+init_daemon_domain(audio_fix)
+
+allow audio_fix shell_exec:file rx_file_perms;
+allow audio_fix toolbox_exec:file rx_file_perms;
+
+
+read_logd(audio_fix)
+
+
+set_prop(audio_fix, system_prop)

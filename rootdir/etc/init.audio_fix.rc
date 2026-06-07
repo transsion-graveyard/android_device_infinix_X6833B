@@ -1,0 +1,13 @@
+service audio_fix /system_ext/bin/audio_fix.sh
+    class main
+    user root
+    group root system log
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start audio_fix
+
+on property:sys.audio_fix.trigger=1
+    restart audioserver
+    setprop sys.audio_fix.trigger 0
